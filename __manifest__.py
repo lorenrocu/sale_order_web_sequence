@@ -5,7 +5,9 @@
     'category': 'Sales',
     'author': 'Lorenzo Romero',
     'depends': ['sale', 'website_sale'],
-    'data': [],
+    'data': [
+        'data/ir_sequence_data.xml',
+    ],
     'installable': True,
     'application': False,
 }

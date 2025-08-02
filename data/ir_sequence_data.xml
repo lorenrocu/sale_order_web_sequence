@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Secuencia para órdenes de venta creadas desde la web -->
+        <!-- Solo se crea si no existe una secuencia personalizada -->
+        <function model="ir.sequence" name="_create_web_sequence_if_not_exists">
+            <value eval="'sale.order.web'"/>
+            <value eval="'Orden de Venta Web'"/>
+            <value eval="'WEB'"/>
+            <value eval="5"/>
+        </function>
+    </data>
+</odoo>
